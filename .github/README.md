@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-apprunner`](https://www.npmjs.com/package/@aws-sdk/client-apprunner/v/3.991.0).
+[`@aws-sdk/client-apprunner`](https://www.npmjs.com/package/@aws-sdk/client-apprunner/v/3.992.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.991.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.992.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-nl4rdbGbQ+X2+D2yYW/lGHpcy8ck+5YuNtu+pGWGuDF/G8AEUfAPbiGM4VTieI4Y
+sha384-AdtZ51F5dq8V1TrV9eeKApGCfyvn0H7GfENVq8oOxMQ3hB1tbNettMl0NrOUHMxH
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-apprunner": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.991.0/index.min.mjs"
+            "@aws-sdk/client-apprunner": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.992.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.991.0/index.min.mjs": "sha384-nl4rdbGbQ+X2+D2yYW/lGHpcy8ck+5YuNtu+pGWGuDF/G8AEUfAPbiGM4VTieI4Y"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.992.0/index.min.mjs": "sha384-AdtZ51F5dq8V1TrV9eeKApGCfyvn0H7GfENVq8oOxMQ3hB1tbNettMl0NrOUHMxH"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-apprunner": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.991.0/index.min.mjs"
+                        "@aws-sdk/client-apprunner": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.992.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.991.0/index.min.mjs": "sha384-nl4rdbGbQ+X2+D2yYW/lGHpcy8ck+5YuNtu+pGWGuDF/G8AEUfAPbiGM4VTieI4Y"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-apprunner@3.992.0/index.min.mjs": "sha384-AdtZ51F5dq8V1TrV9eeKApGCfyvn0H7GfENVq8oOxMQ3hB1tbNettMl0NrOUHMxH"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.991.0`)
+* Always pin to a specific version (`@3.992.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-apprunner/blob/refs/tags/3.991.0/LICENSE
+https://github.com/cloud-sdk-builds/client-apprunner/blob/refs/tags/3.992.0/LICENSE
 ```
 
 ---
